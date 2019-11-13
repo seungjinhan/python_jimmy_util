@@ -1,21 +1,27 @@
 import datetime
-____now = datetime.datetime.now()
+
 def year():
+    ____now = datetime.datetime.now()
     return str(____now.year)
 
 def month():
+    ____now = datetime.datetime.now()
     return str(____now.month).zfill(2)
 
 def day():
+    ____now = datetime.datetime.now()
     return str(____now.day).zfill(2)
 
 def hour():
+    ____now = datetime.datetime.now()
     return str(____now.hour).zfill(2)
 
 def minute():
+    ____now = datetime.datetime.now()
     return str(____now.minute).zfill(2)
 
 def second():
+    ____now = datetime.datetime.now()
     return str(____now.second).zfill(2)
 
 
